@@ -1,0 +1,19 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Assesment_KartikRohilla.API/bin/
+/Assesment_KartikRohilla.API/.vs/
+/Assesment_KartikRohilla.API/obj/
+/Assesment_KartikRohilla.Application/bin/
+/Assesment_KartikRohilla.Application/obj/
+/Assesment_KartikRohilla.Infrastructure/bin/
+/Assesment_KartikRohilla.Infrastructure/obj/
+/Assesment_KartikRohilla.SharedLayer/bin/
+/Assesment_KartikRohilla.SharedLayer/obj
+*.dbmdl
+/Assesment_KartikRohilla.API/.config
+/.vs
+/Assesment_KartikRohilla.API/Uploads/Employee
+/Assesment_KartikRohilla.Repository/obj
+/Assesment_KartikRohilla.Repository/bin
