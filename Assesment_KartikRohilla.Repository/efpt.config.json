@@ -1,0 +1,142 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "Neosoft_KartikRohillaContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Entities",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "Assesment_KartikRohilla.Infrastructure",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[City]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Country]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmployeeMaster]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LoginUsers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[orders2]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[State]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[user2]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[user3]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[user4]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[user5]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[user6]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AddData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[stp_Emp_AddEmployee]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[stp_Emp_CheckColumnValue]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[stp_Emp_CheckDuplicateValue]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[stp_Emp_DeleteEmployee]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[stp_Emp_GetCities]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[stp_Emp_GetCountries]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[stp_Emp_GetEmployeeById]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[stp_Emp_GetEmployees]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[stp_Emp_GetProfileImageName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[stp_Emp_GetStates]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[stp_Emp_LoginUser]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[stp_Emp_UpdateEmployee]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[stp_Emp_UploadImage]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
