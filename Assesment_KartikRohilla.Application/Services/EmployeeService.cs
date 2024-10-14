@@ -1,6 +1,8 @@
-﻿using Assesment_KartikRohilla.Model;
+﻿using Assesment_KartikRohilla.Infrastructure.Entities;
+using Assesment_KartikRohilla.Model;
 using Assesment_KartikRohilla.Repository.Interface;
 using Assesment_KartikRohilla.Services.Interface;
+
 
 namespace Assesment_KartikRohilla.Services
 {
@@ -11,7 +13,7 @@ namespace Assesment_KartikRohilla.Services
         {
             this.repo = repo;
         }
-        public async Task<List<GetEmployees>> Employees()
+        public async Task<List<stp_Emp_GetEmployeesResult>> Employees()
         {
             var response = await repo.Get();
             foreach (var data in response)

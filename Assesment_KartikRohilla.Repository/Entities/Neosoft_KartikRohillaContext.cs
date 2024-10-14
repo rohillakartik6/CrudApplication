@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace Assesment_KartikRohilla.Infrastructure.Entities;
 
 public partial class Neosoft_KartikRohillaContext : DbContext

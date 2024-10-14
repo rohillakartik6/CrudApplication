@@ -1,24 +1,42 @@
-﻿using Assesment_KartikRohilla.Infrastructure.Repositories;
+﻿using Assesment_KartikRohilla.Infrastructure.Entities;
+using Assesment_KartikRohilla.Infrastructure.Repositories;
 using Assesment_KartikRohilla.Model;
 using Assesment_KartikRohilla.Repository.Interface;
 using Dapper;
+using Microsoft.EntityFrameworkCore;
 using System.Data;
+
+
+public class Temp
+{
+    public int IsExists { get; set; }
+}
 
 namespace Assesment_KartikRohilla.Repository
 {
     public class EmployeeRepository : IEmployeeRepository
     {
         private readonly DapperDbContext context;
+        private readonly Neosoft_KartikRohillaContext _efContext;
 
-        public EmployeeRepository(DapperDbContext context)
+        public EmployeeRepository(DapperDbContext context, Neosoft_KartikRohillaContext _efContext)
         {
             this.context = context;
+            this._efContext = _efContext;
         }
-        public async Task<List<GetEmployees>> Get()
+        public async Task<List<stp_Emp_GetEmployeesResult>> Get()
         {
-            using (IDbConnection db = context.GetConnection())
+            try
             {
-                return db.Query<GetEmployees>("stp_Emp_GetEmployees", commandType: CommandType.StoredProcedure).ToList();
+                //using (IDbConnection db = context.GetConnection())
+                //return db.Query<stp_Emp_GetEmployeesResult>("stp_Emp_GetEmployees", commandType: CommandType.StoredProcedure).ToList();
+                var data = await _efContext.GetProcedures().stp_Emp_GetEmployeesAsync();
+                //var data = await _efContext.EmployeeMasters.Where(t => t.RowId == 1).ToListAsync();
+                return data;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
             }
         }
 

@@ -1,6 +1,5 @@
 ﻿using Application.Helpers;
 using Assesment_KartikRohilla.Application.Services.Interface;
-using Assesment_KartikRohilla.Infrastructure.Repository;
 using Assesment_KartikRohilla.Infrastructure.Repository.Interface;
 using Assesment_KartikRohilla.Model;
 using Assesment_KartikRohilla.SharedLayer.Model;
@@ -47,7 +46,7 @@ namespace Assesment_KartikRohilla.Application.Services
             {
                 response.IsError = false;
                 response.Message = "Something went wrong, please try again";
-                response.StatusCode= 500;
+                response.StatusCode = 500;
             }
             return response;
         }

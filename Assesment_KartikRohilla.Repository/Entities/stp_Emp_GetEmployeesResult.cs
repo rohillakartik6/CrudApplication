@@ -21,7 +21,7 @@ namespace Assesment_KartikRohilla.Infrastructure.Entities
         public string ProfileImage { get; set; }
         public byte? Gender { get; set; }
         public bool IsActive { get; set; }
-        public DateOnly DateOfBirth { get; set; }
+        public DateTime DateOfBirth { get; set; }
         public DateOnly? DateOfJoinee { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime? UpdatedDate { get; set; }

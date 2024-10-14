@@ -24,7 +24,6 @@ namespace Assesment_KartikRohilla.Controllers
         {
             try
             {
-
                 ApiResponse response = new ApiResponse();
                 response.StatusCode = 200;
                 response.IsError = false;

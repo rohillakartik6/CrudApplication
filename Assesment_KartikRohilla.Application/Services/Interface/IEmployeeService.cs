@@ -1,11 +1,11 @@
-﻿using Assesment_KartikRohilla.Model;
-using Microsoft.AspNetCore.Http;
+﻿using Assesment_KartikRohilla.Infrastructure.Entities;
+using Assesment_KartikRohilla.Model;
 
 namespace Assesment_KartikRohilla.Services.Interface
 {
     public interface IEmployeeService
     {
-        public Task<List<GetEmployees>> Employees();
+        public Task<List<stp_Emp_GetEmployeesResult>> Employees();
         public Task<ApiResponse> AddEmployee(Employees model);
         public Task<Employees> GetEmployeeById(int id);
         public Task<ApiResponse> UploadImage(ProfilePicture model);
