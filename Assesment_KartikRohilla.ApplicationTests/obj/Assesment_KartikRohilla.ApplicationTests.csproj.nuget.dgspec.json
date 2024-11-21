@@ -1,0 +1,335 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.ApplicationTests\\Assesment_KartikRohilla.ApplicationTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.ApplicationTests\\Assesment_KartikRohilla.ApplicationTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.ApplicationTests\\Assesment_KartikRohilla.ApplicationTests.csproj",
+        "projectName": "Assesment_KartikRohilla.ApplicationTests",
+        "projectPath": "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.ApplicationTests\\Assesment_KartikRohilla.ApplicationTests.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.ApplicationTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.Application\\Assesment_KartikRohilla.Application.csproj": {
+                "projectPath": "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.Application\\Assesment_KartikRohilla.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit.extensibility.execution": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.Application\\Assesment_KartikRohilla.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.Application\\Assesment_KartikRohilla.Application.csproj",
+        "projectName": "Assesment_KartikRohilla.Application",
+        "projectPath": "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.Application\\Assesment_KartikRohilla.Application.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.Repository\\Assesment_KartikRohilla.Infrastructure.csproj": {
+                "projectPath": "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.Repository\\Assesment_KartikRohilla.Infrastructure.csproj"
+              },
+              "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.SharedLayer\\Assesment_KartikRohilla.SharedLayer.csproj": {
+                "projectPath": "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.SharedLayer\\Assesment_KartikRohilla.SharedLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.35.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.Repository\\Assesment_KartikRohilla.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.Repository\\Assesment_KartikRohilla.Infrastructure.csproj",
+        "projectName": "Assesment_KartikRohilla.Infrastructure",
+        "projectPath": "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.Repository\\Assesment_KartikRohilla.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.SharedLayer\\Assesment_KartikRohilla.SharedLayer.csproj": {
+                "projectPath": "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.SharedLayer\\Assesment_KartikRohilla.SharedLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.SharedLayer\\Assesment_KartikRohilla.SharedLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.SharedLayer\\Assesment_KartikRohilla.SharedLayer.csproj",
+        "projectName": "Assesment_KartikRohilla.SharedLayer",
+        "projectPath": "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.SharedLayer\\Assesment_KartikRohilla.SharedLayer.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Kartik DATA\\Kartik DATA\\kartik-projects\\Machine_Test_Neosoft\\API\\Assesment_KartikRohilla\\Assesment_KartikRohilla.SharedLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

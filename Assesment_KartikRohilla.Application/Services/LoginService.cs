@@ -39,12 +39,12 @@ namespace Assesment_KartikRohilla.Application.Services
                 {
                     response.Message = "User not found";
                     response.StatusCode = 404;
-                    response.IsError = false;
+                    response.IsError = true;
                 }
             }
             else
             {
-                response.IsError = false;
+                response.IsError = true;
                 response.Message = "Something went wrong, please try again";
                 response.StatusCode = 500;
             }

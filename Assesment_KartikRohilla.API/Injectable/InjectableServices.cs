@@ -25,6 +25,8 @@ namespace Assesment_KartikRohilla.API.Injectable
             builder.Services.AddScoped<IDropdownRepository, DropdownRepository>();
             builder.Services.AddScoped<ILoginRepository, LoginRepository>();
             builder.Services.AddScoped<ILoginService, LoginService>();
+            builder.Services.AddScoped<IUrlService, UrlService>();
+            builder.Services.AddScoped<IUrlRepository, UrlRepository>();
         }
     }
 }
